@@ -1,0 +1,27 @@
+repositories {
+	mavenCentral()
+	exclusiveContent {
+		forRepository {
+			maven {
+				name = 'Modrinth'
+				url = 'https://api.modrinth.com/maven'
+			}
+		}
+		filter { includeGroup 'maven.modrinth' }
+	}
+}
+
+architectury {
+	common(enabled_platforms.split(","))
+}
+
+loom {
+	accessWidenerPath = file("src/main/resources/example_mod.accesswidener")
+}
+
+dependencies {
+}
+
+test {
+	useJUnitPlatform()
+}
