@@ -2,6 +2,19 @@
 
 Simple example mod of Minecraft.
 
+## Features
+
+* [x] [Architectury](https://github.com/architectury)
+* Prepared structure for mod loaders
+	* [x] [Fabric](https://fabricmc.net)
+	* [x] [NeoForge](https://neoforged.net/)
+	* [ ] [Forge](https://files.minecraftforge.net/)
+* Dependencies you may want to use
+	* [x] [Mixin](https://github.com/SpongePowered/Mixin)
+	* [x] [Mixinextras](https://github.com/LlamaLad7/MixinExtras)
+	* [x] [Architectury API](https://github.com/architectury/architectury-api)
+	* [ ] [ModMenu](https://github.com/TerraformersMC/ModMenu) (For Fabric)
+
 ## How to use
 
 If you want to make your own mod based on this example, you can replace all occurences of identifiers like

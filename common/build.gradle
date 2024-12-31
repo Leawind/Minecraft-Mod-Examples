@@ -20,6 +20,9 @@ loom {
 }
 
 dependencies {
+	// Architectury-api
+	modApi "dev.architectury:architectury:${architectury_api_version}"
+	
 }
 
 test {

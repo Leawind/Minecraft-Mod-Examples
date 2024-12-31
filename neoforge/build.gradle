@@ -32,6 +32,12 @@ dependencies {
 	shadowCommon(project(path: ":common", configuration: "transformProductionNeoForge")) { transitive = false }
 	
 	neoForge "net.neoforged:neoforge:${neoforge_version}"
+	
+	// MixinExtras
+	include implementation(annotationProcessor("io.github.llamalad7:mixinextras-fabric:${mixinextras_version}"))
+	
+	// Architectury-api
+	modApi "dev.architectury:architectury-neoforge:${architectury_api_version}"
 }
 
 processResources {
