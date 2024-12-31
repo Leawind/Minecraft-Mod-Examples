@@ -1,19 +1,26 @@
 # Minecraft-Mod-Examples
 
-Simple example mod of Minecraft.
+A simple example mod of Minecraft.
 
-## Features
+## What does it have
 
-* [x] [Architectury](https://github.com/architectury)
+* [x] [Architectury Plugin](https://github.com/architectury/architectury-plugin) A simple gradle plugin to enable
+  developing multiplatform mods.
 * Prepared structure for mod loaders
-	* [x] [Fabric](https://fabricmc.net)
-	* [x] [NeoForge](https://neoforged.net/)
-	* [ ] [Forge](https://files.minecraftforge.net/)
+	* [x] [Fabric](https://fabricmc.net) A modular, lightweight mod loader.
+	* [x] [NeoForge](https://neoforged.net) Neo Modding API for Minecraft, based on Forge.
+	* [ ] [Forge](https://files.minecraftforge.net) Modifications to the Minecraft base files to assist in compatibility
+	  between mods.
 * Dependencies you may want to use
-	* [x] [Mixin](https://github.com/SpongePowered/Mixin)
-	* [x] [Mixinextras](https://github.com/LlamaLad7/MixinExtras)
-	* [x] [Architectury API](https://github.com/architectury/architectury-api)
+	* [x] [Mixin](https://github.com/SpongePowered/Mixin) A trait/mixin and bytecode weaving framework for Java using
+	  ASM.
+	* [x] [Mixinextras](https://github.com/LlamaLad7/MixinExtras) Companion library to SpongePowered Mixin with many
+	  custom injectors for a more expressive experience.
+	* [x] [Architectury API](https://github.com/architectury/architectury-api) An intermediary api aimed at easing
+	  development of multiplatform mods.
 	* [ ] [ModMenu](https://github.com/TerraformersMC/ModMenu) (For Fabric)
+* [ ] [Mod Publish Plugin](https://github.com/modmuss50/mod-publish-plugin) A Gradle plugin to publish mods to a range
+  of destinations
 
 ## How to use
 
